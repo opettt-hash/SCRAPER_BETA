@@ -88,6 +88,8 @@ Tools ini adalah **Endpoint & API Discovery Scanner** yang dirancang dengan kema
 ```bash
 pkg install python git -y
 pip install requests bs4 urllib3 rich
+ git clone https://github.com/opettt-hash/SCRAPER_BETA.git
+cd SCRAPER_BETA
 ```
 
 # Cara Pakai Lengkap
