@@ -94,12 +94,12 @@ python scraper.py
 # Peringatan
 | Bagian | Pernyataan |
 |--------|------------|
-| Tujuan Penggunaan | Perangkat lunak ini dikembangkan untuk keperluan **penelitian keamanan siber**, **audit sistem**, dan **penetration testing** yang dilakukan secara **sah dan berizin**. |
-| Kepemilikan & Akses | Seluruh aktivitas pengujian hanya boleh dilakukan pada sistem, server, atau aplikasi yang **dimiliki secara sah** oleh pengguna atau ketika pengguna telah memperoleh **izin tertulis** dari pemilik sistem. |
-| Batasan Penggunaan | Dilarang menggunakan perangkat ini untuk tujuan yang bertentangan dengan hukum, seperti: akses ilegal, peretasan, pencurian data, gangguan layanan, ataupun aktivitas merugikan lainnya. |
-| Tanggung Jawab Pengguna | Segala bentuk tindakan, hasil, dan konsekuensi yang timbul dari penggunaan perangkat ini sepenuhnya menjadi **tanggung jawab pengguna**. Pengembang tidak bertanggung jawab atas penyalahgunaan dalam bentuk apa pun. |
-| Kepatuhan Hukum | Pengguna diharuskan mematuhi seluruh peraturan perundang‑undangan yang berlaku, termasuk regulasi keamanan data, privasi, dan etika penggunaan teknologi informasi. |
-| Ketentuan Lisensi | Dengan menggunakan perangkat ini, pengguna menyetujui bahwa perangkat hanya digunakan untuk keperluan profesional yang sah, serta tidak untuk melakukan tindakan yang mengancam keamanan sistem mana pun. |
-| Tujuan Edukasi | Dokumentasi, kode, dan seluruh komponen proyek ini disediakan sebagai materi edukasi dan referensi teknis bagi para profesional keamanan informasi. |
+| Tujuan Penggunaan | Perangkat lunak ini dikembangkan untuk keperluan **penelitian keamanan siber**, **audit sistem**, dan **penetration testing** yang dilakukan secara **sah dan berizin** |
+| Kepemilikan & Akses | Seluruh aktivitas pengujian hanya boleh dilakukan pada sistem, server, atau aplikasi yang **dimiliki secara sah** oleh pengguna atau ketika pengguna telah memperoleh **izin tertulis** dari pemilik sistem |
+| Batasan Penggunaan | Dilarang menggunakan perangkat ini untuk tujuan yang bertentangan dengan hukum, seperti: akses ilegal, peretasan, pencurian data, gangguan layanan, ataupun aktivitas merugikan lainnya |
+| Tanggung Jawab Pengguna | Segala bentuk tindakan, hasil, dan konsekuensi yang timbul dari penggunaan perangkat ini sepenuhnya menjadi **tanggung jawab pengguna**. Pengembang tidak bertanggung jawab atas penyalahgunaan dalam bentuk apa pun |
+| Kepatuhan Hukum | Pengguna diharuskan mematuhi seluruh peraturan perundang‑undangan yang berlaku, termasuk regulasi keamanan data, privasi, dan etika penggunaan teknologi informasi |
+| Ketentuan Lisensi | Dengan menggunakan perangkat ini, pengguna menyetujui bahwa perangkat hanya digunakan untuk keperluan profesional yang sah, serta tidak untuk melakukan tindakan yang mengancam keamanan sistem mana pun |
+| Tujuan Edukasi | Dokumentasi, kode, dan seluruh komponen proyek ini disediakan sebagai materi edukasi dan referensi teknis bagi para profesional keamanan informasi |
 
 ---
