@@ -91,3 +91,100 @@ Tools ini adalah **Endpoint & API Discovery Scanner** yang dirancang dengan kema
 ```bash
 pkg install python git -y
 pip install requests bs4 urllib3 rich
+
+# ▶️ Cara Pakai (Lengkap)
+
+## 🎯 Mode Dasar
+| Fungsi | Command | Keterangan |
+|--------|---------|-------------|
+| Scan dasar | `python scraper.py --url https://target.com` | Scan cepat tanpa fitur tambahan |
+| Scan + simpan otomatis | `python scraper.py --url https://target.com --save` | Output JSON/CSV/TXT otomatis |
+
+---
+
+## 🌐 Mode Web Scraping
+| Fungsi | Command | Keterangan |
+|--------|---------|-------------|
+| Crawling multi-depth | `python scraper.py --url https://site.com --deep` | Mengaktifkan scan recursive |
+| Atur depth | `python scraper.py --url https://site.com --depth 5` | Depth 1–10 |
+| Scan JS recursive | `python scraper.py --url https://site.com --js-scan` | Memaksa scan semua file JS |
+
+---
+
+## 🔥 Mode API & Endpoint Scan
+| Fungsi | Command | Keterangan |
+|--------|---------|-------------|
+| Scan API otomatis | `python scraper.py --url https://site.com --api` | Cari endpoint `/api/*` |
+| Scan + generate endpoint | `python scraper.py --url https://site.com --expand` | Smart Path Expansion aktif |
+| Scan GraphQL | `python scraper.py --url https://site.com --graphql` | Cari `/graphql` & schema |
+
+---
+
+## 🧩 Mode Secret Key Detector
+| Fungsi | Command | Keterangan |
+|--------|---------|-------------|
+| Deteksi semua secret | `python scraper.py --url https://site.com --secrets` | API Key, JWT, AWS, Firebase |
+| Deteksi Firebase | `python scraper.py --url https://site.com --firebase` | Firebase config extractor |
+| Deteksi AWS Key | `python scraper.py --url https://site.com --aws` | `AKIAxxxx` + SecretKey |
+
+---
+
+## 🚀 Mode Kecepatan (Threading)
+| Fungsi | Command | Keterangan |
+|--------|---------|-------------|
+| Gunakan 50 thread | `python scraper.py --url https://site.com --threads 50` | Mode cepat |
+| Mode full speed | `python scraper.py --url https://site.com --threads 200` | Maximum speed |
+
+---
+
+## 🌐 Proxy & User-Agent
+| Fungsi | Command | Keterangan |
+|--------|---------|-------------|
+| Gunakan proxy list | `python scraper.py --url https://site.com --proxy proxy.txt` | Rotasi otomatis |
+| Gunakan proxy tunggal | `python scraper.py --url https://site.com --proxy http://127.0.0.1:8080` | Proxy manual |
+| Random UA | `python scraper.py --url https://site.com --random-ua` | Mobile + Desktop mix |
+| Set custom UA | `python scraper.py --url https://site.com --ua "Mozilla/5.0"` | Manual UA |
+
+---
+
+## 🛡️ Filter & Rules
+| Fungsi | Command | Keterangan |
+|--------|---------|-------------|
+| Whitelist path | `python scraper.py --url https://site.com --allow api,auth,user` | Hanya scan folder tertentu |
+| Blacklist path | `python scraper.py --url https://site.com --deny admin,debug,static` | Skip folder tertentu |
+| Ignore robots.txt | `python scraper.py --url https://site.com --ignore-robots` | Scan tanpa dibatasi |
+
+---
+
+## 📤 Output & Export
+| Fungsi | Command | Keterangan |
+|--------|---------|-------------|
+| Export Postman | `python scraper.py --url https://site.com --postman` | Auto generate `.postman.json` |
+| Export ke folder lain | `python scraper.py --url https://site.com --output results/` | Custom output folder |
+| Simpan JSON | `python scraper.py --url https://site.com --json` | Export JSON saja |
+| Simpan CSV | `python scraper.py --url https://site.com --csv` | Export CSV saja |
+| Simpan TXT | `python scraper.py --url https://site.com --txt` | Export list TXT |
+
+---
+
+## ⚙️ Mode Debug & Testing
+| Fungsi | Command | Keterangan |
+|--------|---------|-------------|
+| Mode debug | `python scraper.py --url https://site.com --debug` | Menampilkan log internal |
+| Cek status endpoint | `python scraper.py --url https://site.com --check` | HTTP status checker |
+| Print semua JS file | `python scraper.py --url https://site.com --list-js` | Debug resource |
+
+---
+
+## 🧪 Contoh Kombinasi Paling Laris
+| Tujuan | Command |
+|--------|---------|
+| Deep scan + secret + postman + thread 100 | `python scraper.py --url https://target.com --deep --secrets --postman --threads 100` |
+| Full API scan + expand | `python scraper.py --url https://target.com --api --expand` |
+| Proxy + deep JS crawler | `python scraper.py --url https://target.com --proxy proxy.txt --js-scan --deep` |
+| Crawl + bypass robots | `python scraper.py --url https://target.com --ignore-robots --deep` |
+
+---
+
+# 🎯 Rekomendasi Penggunaan (Ready to Copy)
+Gunakan command paling lengkap untuk hunting API tersembunyi:
