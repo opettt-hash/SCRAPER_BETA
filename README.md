@@ -1,5 +1,5 @@
 ## Craper Endepoint Beta
-Tools ini merupakan Advanced Endpoint & API Discovery Scanner yang dibangun dengan teknologi analisis modern untuk analisis yang cerdas, tools ini mampu mengungkap endpoint yang tidak muncul di permukaan, memahami pola API internal, serta menyajikan data teknis yang relevan untuk keamanan dan validasi sistem
+Tools Ini Merupakan Advanced Endpoint & API Discovery Scanner Yang Dibangun Dengan Teknologi Analisis Modern Untuk Analisis Yang Cerdas, Tools Ini Mampu Mengungkap Endpoint Yang Tidak Muncul Di Permukaan, Memahami Pola API Internal, Serta Menyajikan Data Teknis Yang Relevan Untuk Keamanan Dan Validasi Sistem
 
 ---
 ## Fitur Utama
