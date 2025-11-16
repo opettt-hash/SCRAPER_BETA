@@ -1,4 +1,4 @@
-# Endpoint Scraper Beta By Rolandino Edition 🔥
+# Endpoint Scraper Beta
 
 Tools ini adalah **Endpoint & API Discovery Scanner** yang dirancang dengan kemampuan deep crawling, API discovery, secret key extraction, dan Postman auto‑export.
 
