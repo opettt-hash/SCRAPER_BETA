@@ -187,5 +187,12 @@ pip install requests bs4 urllib3 rich
 
 ---
 
-# 🎯 Rekomendasi Penggunaan (Ready to Copy)
-Gunakan command paling lengkap untuk hunting API tersembunyi:
+# 💡 Tips
+| Tip | Manfaat |
+|------|---------|
+| Gunakan proxy list minimal 50 | Supaya tidak kena rate‑limit |
+| Aktifkan --random-ua | Menghindari blokir bot |
+| Gunakan --expand | Munculin endpoint tersembunyi |
+| Gunakan --secrets | Buka peluang temukan API KEY |
+
+---
