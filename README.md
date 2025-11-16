@@ -39,7 +39,6 @@ Tools ini adalah **Endpoint & API Discovery Scanner** yang dirancang dengan kema
 | AWS Access Key | `AKIAxxxx` | ✅ |
 | JWT Token | `eyJhbGciOi...` | ✅ |
 | Bearer Token | `Bearer xxxxx` | ✅ |
-| RapidAPI Key | `x-rapidapi-key` | ✅ |
 | x-api-key | Header Custom | ✅ |
 
 ---
