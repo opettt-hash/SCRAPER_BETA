@@ -1,6 +1,6 @@
 # Endpoint Scraper Beta
 
-Tools ini adalah **Endpoint & API Discovery Scanner** yang dirancang dengan kemampuan deep crawling, API discovery, secret key extraction, dan otomatis xploit
+Tools ini adalah **Endpoint & API Discovery Scanner** yang dirancang dengan kemampuan deep crawling, API discovery, secret key extraction, dan otomatis xploitasi
 
 ---
 
