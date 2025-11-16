@@ -3,10 +3,7 @@
 Tools ini adalah **Endpoint & API Discovery Scanner** yang dirancang dengan kemampuan deep crawling, API discovery, secret key extraction, dan otomatis xploitasi
 
 ---
-
-# 📊 Tabel Dokumen Lengkap
-
-## ⭐ Fitur Utama
+## Fitur Utama
 | Kategori | Deskripsi |
 |---------|-----------|
 | **Endpoint Auto Extract** | HTML Parser, JS Parser, JS Recursive Crawler, Dynamic Import Detector, AJAX Interceptor |
@@ -18,7 +15,7 @@ Tools ini adalah **Endpoint & API Discovery Scanner** yang dirancang dengan kema
 
 ---
 
-## 🔍 Endpoint Auto Extract
+## Endpoint Auto Extract
 | Engine | Kemampuan |
 |--------|-----------|
 | HTML Parser | href, src, form action, link hidden |
@@ -30,33 +27,33 @@ Tools ini adalah **Endpoint & API Discovery Scanner** yang dirancang dengan kema
 
 ---
 
-## 🔑 Secret Key Detection
+## Secret Key Detection
 | Jenis Key | Contoh | Deteksi |
 |-----------|--------|----------|
-| Google API Key | `AIza...` | ✅ |
-| Firebase Admin Key | `AAAA:xxxxx` | ✅ |
-| Stripe Keys | `sk_live`, `pk_live` | ✅ |
-| AWS Access Key | `AKIAxxxx` | ✅ |
-| JWT Token | `eyJhbGciOi...` | ✅ |
-| Bearer Token | `Bearer xxxxx` | ✅ |
-| x-api-key | Header Custom | ✅ |
+| Google API Key | `AIza...` | ✓ |
+| Firebase Admin Key | `AAAA:xxxxx` | ✓ |
+| Stripe Keys | `sk_live`, `pk_live` | ✓ |
+| AWS Access Key | `AKIAxxxx` | ✓ |
+| JWT Token | `eyJhbGciOi...` | ✓ |
+| Bearer Token | `Bearer xxxxx` | ✓ |
+| x-api-key | Header Custom | ✓ |
 
 ---
 
-## 🌐 Website & API Scanner
+## Website & API Scanner
 | Fitur | Status |
 |--------|--------|
-| Multi-depth crawling | ✅ |
-| Recursive link discovery | ✅ |
-| robots.txt parser | ❇️ Bisa ignore |
-| Sitemap.xml reader | ✅ |
-| HEAD/GET validator | ✅ |
+| Multi-depth crawling |  |
+| Recursive link discovery |  |
+| robots.txt parser |  Bisa ignore |
+| Sitemap.xml reader |  |
+| HEAD/GET validator |  |
 | Admin path scan | `/admin`, `/admincp`, `/panel`, `/dashboard` |
 | API enumeration | `/api`, `/api/v1`, `/v2`, `/backend`, `/services` |
 
 ---
 
-## ⚙️ Smart Path Expansion
+## Smart Path Expansion
 | Input Path | Output Path (Generated) |
 |-------------|--------------------------|
 | `/api/v1/user` | `/login`, `/register`, `/auth`, `/info`, `/update`, `/delete` |
@@ -65,7 +62,7 @@ Tools ini adalah **Endpoint & API Discovery Scanner** yang dirancang dengan kema
 
 ---
 
-## 🤖 Multithreading + Proxy Rotator
+## Multithreading + Proxy Rotator
 | Fitur | Detail |
 |-------|--------|
 | Thread | Max 200 |
@@ -76,7 +73,7 @@ Tools ini adalah **Endpoint & API Discovery Scanner** yang dirancang dengan kema
 
 ---
 
-## 📤 Output Tools
+## Output Tools
 | File | Fungsi |
 |------|--------|
 | `endpoints_TIMESTAMP.json` | Data lengkap endpoint |
@@ -87,15 +84,15 @@ Tools ini adalah **Endpoint & API Discovery Scanner** yang dirancang dengan kema
 
 ---
 
-# 🔧 Instalasi
+# Instalasi
 ```bash
 pkg install python git -y
 pip install requests bs4 urllib3 rich
 ```
 
-# ▶️ Cara Pakai (Lengkap)
+# Cara Pakai Lengkap
 
-## 🎯 Mode Dasar
+## Mode Dasar
 | Fungsi | Command | Keterangan |
 |--------|---------|-------------|
 | Scan dasar | `python scraper.py --url https://target.com` | Scan cepat tanpa fitur tambahan |
@@ -103,7 +100,7 @@ pip install requests bs4 urllib3 rich
 
 ---
 
-## 🌐 Mode Web Scraping
+## Mode Web Scraping
 | Fungsi | Command | Keterangan |
 |--------|---------|-------------|
 | Crawling multi-depth | `python scraper.py --url https://site.com --deep` | Mengaktifkan scan recursive |
@@ -112,7 +109,7 @@ pip install requests bs4 urllib3 rich
 
 ---
 
-## 🔥 Mode API & Endpoint Scan
+## Mode API & Endpoint Scan
 | Fungsi | Command | Keterangan |
 |--------|---------|-------------|
 | Scan API otomatis | `python scraper.py --url https://site.com --api` | Cari endpoint `/api/*` |
@@ -121,7 +118,7 @@ pip install requests bs4 urllib3 rich
 
 ---
 
-## 🧩 Mode Secret Key Detector
+## Mode Secret Key Detector
 | Fungsi | Command | Keterangan |
 |--------|---------|-------------|
 | Deteksi semua secret | `python scraper.py --url https://site.com --secrets` | API Key, JWT, AWS, Firebase |
@@ -130,7 +127,7 @@ pip install requests bs4 urllib3 rich
 
 ---
 
-## 🚀 Mode Kecepatan (Threading)
+## Mode Kecepatan (Threading)
 | Fungsi | Command | Keterangan |
 |--------|---------|-------------|
 | Gunakan 50 thread | `python scraper.py --url https://site.com --threads 50` | Mode cepat |
@@ -138,7 +135,7 @@ pip install requests bs4 urllib3 rich
 
 ---
 
-## 🌐 Proxy & User-Agent
+## Proxy & User-Agent
 | Fungsi | Command | Keterangan |
 |--------|---------|-------------|
 | Gunakan proxy list | `python scraper.py --url https://site.com --proxy proxy.txt` | Rotasi otomatis |
@@ -148,7 +145,7 @@ pip install requests bs4 urllib3 rich
 
 ---
 
-## 🛡️ Filter & Rules
+## Filter & Rules
 | Fungsi | Command | Keterangan |
 |--------|---------|-------------|
 | Whitelist path | `python scraper.py --url https://site.com --allow api,auth,user` | Hanya scan folder tertentu |
@@ -157,7 +154,7 @@ pip install requests bs4 urllib3 rich
 
 ---
 
-## 📤 Output & Export
+## Output & Export
 | Fungsi | Command | Keterangan |
 |--------|---------|-------------|
 | Export Postman | `python scraper.py --url https://site.com --postman` | Auto generate `.postman.json` |
@@ -168,7 +165,7 @@ pip install requests bs4 urllib3 rich
 
 ---
 
-## ⚙️ Mode Debug & Testing
+## Mode Debug & Testing
 | Fungsi | Command | Keterangan |
 |--------|---------|-------------|
 | Mode debug | `python scraper.py --url https://site.com --debug` | Menampilkan log internal |
@@ -177,7 +174,7 @@ pip install requests bs4 urllib3 rich
 
 ---
 
-## 🧪 Contoh Kombinasi Paling Laris
+## Contoh Kombinasi Paling Laris
 | Tujuan | Command |
 |--------|---------|
 | Deep scan + secret + postman + thread 100 | `python scraper.py --url https://target.com --deep --secrets --postman --threads 100` |
@@ -187,7 +184,7 @@ pip install requests bs4 urllib3 rich
 
 ---
 
-# 💡 Tips
+# Tips
 | Tip | Manfaat |
 |------|---------|
 | Gunakan proxy list minimal 50 | Supaya tidak kena rate‑limit |
@@ -196,7 +193,7 @@ pip install requests bs4 urllib3 rich
 | Gunakan --secrets | Buka peluang temukan API KEY |
 
 ---
-# ⚠️ DISCLAIMER (Formal Version)
+# Peringatan
 
 | Bagian | Pernyataan |
 |--------|------------|
