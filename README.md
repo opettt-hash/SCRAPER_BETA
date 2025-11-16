@@ -86,7 +86,7 @@ Tools ini merupakan Advanced Endpoint & API Discovery Scanner yang dibangun deng
 # Instalasi
 ```bash
 pip install requests bs4 urllib3 rich
- git clone https://github.com/opettt-hash/SCRAPER_BETA.git
+git clone https://github.com/opettt-hash/SCRAPER_BETA.git
 cd SCRAPER_BETA
 python scraper.py
 ```
